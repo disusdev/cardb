@@ -29,7 +29,7 @@ MonoBehaviour:
     actionValue: 3
     actionDelay: 1
   cardDescriptionDataList:
-  - descriptionText: Increase strength and attack multiple enemies
+  - descriptionText: 'Increase strength '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -43,11 +43,29 @@ MonoBehaviour:
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
+    modiferStats: 4
+    usePrefixOnModifiedValue: 1
+    modifiedValuePrefix: +
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' and attack multiple enemies '
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' cards'
+  - descriptionText: 
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 1
+    modiferStats: 3
+    usePrefixOnModifiedValue: 1
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' damage'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

@@ -25,7 +25,7 @@ MonoBehaviour:
     actionValue: 12
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Charge at the enemy with unbridled fury
+  - descriptionText: 'Charge at the enemy with unbridled fury '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
+    modiferStats: 3
+    usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   specialKeywordsList: 

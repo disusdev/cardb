@@ -24,8 +24,12 @@ MonoBehaviour:
     actionTargetType: 2
     actionValue: 7
     actionDelay: 0
+  - cardActionType: 1
+    actionTargetType: 1
+    actionValue: 5
+    actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: A path of destruction that hits all enemies
+  - descriptionText: 'A path of destruction that hits all enemies '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -43,16 +47,7 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 1
-  - descriptionText: ' damage.'
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 0
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  - descriptionText: ' Heal '
+  - descriptionText: ' damage and heal for '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -62,13 +57,22 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: 
-    enableOverrideColor: 1
-    overrideColor: {r: 0.3529412, g: 0.7725491, b: 0.30980393, a: 1}
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
-    modifiedActionValueIndex: 0
-    modiferStats: 3
+    modifiedActionValueIndex: 1
+    modiferStats: 4
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 1
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' hp.'
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
   specialKeywordsList: 
   audioType: 0

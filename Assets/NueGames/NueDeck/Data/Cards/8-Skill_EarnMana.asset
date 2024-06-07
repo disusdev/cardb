@@ -29,7 +29,7 @@ MonoBehaviour:
     actionValue: 10
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Unleash your inner berserker for massive damage
+  - descriptionText: 'Unleash your inner berserker for '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' mana'
+  - descriptionText: ' damage.'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -56,5 +56,5 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 
+  specialKeywordsList: 01000000
   audioType: 9
