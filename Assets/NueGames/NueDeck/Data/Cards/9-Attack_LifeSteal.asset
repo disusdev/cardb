@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: 9-Attack_LifeSteal
   m_EditorClassIdentifier: 
   id: 9_attack_lifeSteal
-  cardName: Life Steal
-  manaCost: 2
+  cardName: Warpath
+  manaCost: 4
   cardSprite: {fileID: 21300000, guid: 04684b85c9246b945a48b41d9ec2f4be, type: 3}
-  usableWithoutTarget: 0
+  rarity: 0
+  usableWithoutTarget: 1
+  exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 7
-    actionTargetType: 0
-    actionValue: 5
+  - cardActionType: 0
+    actionTargetType: 2
+    actionValue: 7
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Deal '
+  - descriptionText: A path of destruction that hits all enemies
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -69,4 +71,4 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 1
   specialKeywordsList: 
-  audioType: 5
+  audioType: 0

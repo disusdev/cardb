@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: 3-Block_Basic
   m_EditorClassIdentifier: 
   id: 3_block_basic
-  cardName: Basic block
-  manaCost: 1
+  cardName: War Cry
+  manaCost: 2
   cardSprite: {fileID: -1513487178384027574, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
+  rarity: 0
   usableWithoutTarget: 1
+  exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 2
-    actionTargetType: 1
-    actionValue: 5
+  - cardActionType: 3
+    actionTargetType: 3
+    actionValue: 2
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Gain '
+  - descriptionText: Inspire your allies with a powerful shout
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

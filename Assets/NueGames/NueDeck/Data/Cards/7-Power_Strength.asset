@@ -13,17 +13,23 @@ MonoBehaviour:
   m_Name: 7-Power_Strength
   m_EditorClassIdentifier: 
   id: 7_power_strength
-  cardName: Increase strength
-  manaCost: 2
+  cardName: Reckless Charge
+  manaCost: 4
   cardSprite: {fileID: 21300000, guid: a0c75614ede963a46af4bc352b3faabd, type: 3}
-  usableWithoutTarget: 1
+  rarity: 0
+  usableWithoutTarget: 0
+  exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 3
+  - cardActionType: 0
+    actionTargetType: 0
+    actionValue: 15
+    actionDelay: 0
+  - cardActionType: 2
     actionTargetType: 1
-    actionValue: 4
+    actionValue: 5
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Increase your strength by '
+  - descriptionText: A powerful charge that deals heavy damage but leaves you vulnerable
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -42,4 +48,4 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   specialKeywordsList: 01000000
-  audioType: 9
+  audioType: 0
