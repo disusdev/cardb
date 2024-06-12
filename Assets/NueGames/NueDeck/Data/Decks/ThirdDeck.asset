@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4cc2cb8eaf4444790bf3249beca9ed4, type: 3}
-  m_Name: InitalDeck
+  m_Name: ThirdDeck
   m_EditorClassIdentifier: 
-  deckId: deck_1
-  deckName: Aggressive Warriors
+  deckId: deck_3
+  deckName: Strategic Mages
   cardList:
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 8f655889219afa649a967e88e37f98ec, type: 2}
+  - {fileID: 11400000, guid: 658801139689aa947ba1463e6a631c80, type: 2}
+  - {fileID: 11400000, guid: 88b82f967efa9194592f917edae3ba56, type: 2}

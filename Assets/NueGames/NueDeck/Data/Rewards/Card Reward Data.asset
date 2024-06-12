@@ -15,11 +15,6 @@ MonoBehaviour:
   rewardSprite: {fileID: 7599432968757225573, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rewardDescription: Choose card
   rewardCardList:
-  - {fileID: 11400000, guid: 8f655889219afa649a967e88e37f98ec, type: 2}
-  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
-  - {fileID: 11400000, guid: 7c3fef23d2fb177478906e53364bf7fc, type: 2}
-  - {fileID: 11400000, guid: 97392c824000e4049a6299b2cef0e84d, type: 2}
-  - {fileID: 11400000, guid: 9706119fd5cc9f34e90cb73be068200c, type: 2}
-  - {fileID: 11400000, guid: 1e5671bf6b0f90b428df809497a2f125, type: 2}
-  - {fileID: 11400000, guid: 5d6b018bf7dec554ba0a2eabfd89d3b1, type: 2}
-  - {fileID: 11400000, guid: ffd3079242e164645ba9365c7c965def, type: 2}
+  - {fileID: 11400000, guid: b4031d3db0ff8d5429ac896d38c485be, type: 2}
+  - {fileID: 11400000, guid: 0ca93e384f6c8a24185306782951dd29, type: 2}
+  - {fileID: 11400000, guid: cd97d6f3dcbe84a40b13da6dffb62642, type: 2}

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 8-Skill_EarnMana
   m_EditorClassIdentifier: 
   id: 8_skill_earnMana
-  cardName: Berserker Rage
-  manaCost: 5
+  cardName: 1.8 Berserker Rage
+  manaCost: 3
   cardSprite: {fileID: 21300000, guid: c0629e7c358247d4291114d4e9521ddd, type: 3}
   rarity: 0
-  usableWithoutTarget: 1
+  usableWithoutTarget: 0
   exhaustAfterPlay: 1
   cardActionDataList:
   - cardActionType: 3
@@ -27,9 +27,13 @@ MonoBehaviour:
   - cardActionType: 0
     actionTargetType: 4
     actionValue: 10
-    actionDelay: 0
+    actionDelay: 1
+  - cardActionType: 5
+    actionTargetType: 5
+    actionValue: 1
+    actionDelay: 1
   cardDescriptionDataList:
-  - descriptionText: 'Unleash your inner berserker for '
+  - descriptionText: 'Increase '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -43,8 +47,26 @@ MonoBehaviour:
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
+    modiferStats: 4
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' strength and attacks random enemy '
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: 
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 1
+    modiferStats: 3
+    usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: ' damage.'
@@ -56,5 +78,5 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 01000000
+  specialKeywordsList: 0100000003000000
   audioType: 9

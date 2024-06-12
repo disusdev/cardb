@@ -12,20 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 3-Block_Basic
   m_EditorClassIdentifier: 
-  id: 3_block_basic
-  cardName: War Cry
+  id: 3_war_cry
+  cardName: 1.3 War Cry
   manaCost: 2
   cardSprite: {fileID: -1513487178384027574, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
   usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 3
-    actionTargetType: 3
-    actionValue: 2
+  - cardActionType: 0
+    actionTargetType: 4
+    actionValue: 1
     actionDelay: 0
+  - cardActionType: 6
+    actionTargetType: 5
+    actionValue: 1
+    actionDelay: 1
   cardDescriptionDataList:
-  - descriptionText: Inspire your allies with a powerful shout
+  - descriptionText: 'Add  '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,15 +39,15 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: 
-    enableOverrideColor: 1
-    overrideColor: {r: 0, g: 0.41176474, b: 0.6666667, a: 1}
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0.6666667, b: 0.04191812, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
     modiferStats: 0
-    usePrefixOnModifiedValue: 1
+    usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 1
-  - descriptionText: ' block'
+  - descriptionText: ' card and earn '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -52,5 +56,23 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 00000000
+  - descriptionText: 
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: +
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' mana'
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  specialKeywordsList: 
   audioType: 2

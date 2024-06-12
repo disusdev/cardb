@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 14_new_card_name
   m_EditorClassIdentifier: 
   id: 05_Deck02DefensiveGuardians
-  cardName: Iron Wall
+  cardName: 2.5 Iron Wall
   manaCost: 3
   cardSprite: {fileID: 0}
   rarity: 0

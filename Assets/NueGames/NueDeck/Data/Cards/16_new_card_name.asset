@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 16_new_card_name
   m_EditorClassIdentifier: 
   id: 07_Deck02DefensiveGuardians
-  cardName: Fortify
+  cardName: 2.7 Fortify
   manaCost: 4
   cardSprite: {fileID: 0}
   rarity: 0

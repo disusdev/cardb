@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 26_new_card_name
   m_EditorClassIdentifier: 
   id: 08_Deck03DefensiveGuardians
-  cardName: Elemental Fury
+  cardName: 3.8 Elemental Fury
   manaCost: 5
   cardSprite: {fileID: 0}
   rarity: 0

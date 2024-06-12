@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 20_new_card_name
   m_EditorClassIdentifier: 
   id: 02_Deck03DefensiveGuardians
-  cardName: Magic Missile
+  cardName: 3.2 Magic Missile
   manaCost: 1
   cardSprite: {fileID: 0}
   rarity: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 19_new_card_name
   m_EditorClassIdentifier: 
   id: 01_Deck03DefensiveGuardians
-  cardName: Fireball
+  cardName: 3.1 Fireball
   manaCost: 3
   cardSprite: {fileID: 0}
   rarity: 0

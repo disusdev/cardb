@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10_new_card_name
   m_EditorClassIdentifier: 
   id: 01_Deck02DefensiveGuardians
-  cardName: Shield Bash
+  cardName: 2.1 Shield Bash
   manaCost: 2
   cardSprite: {fileID: 0}
   rarity: 0
@@ -22,14 +22,14 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 2
     actionTargetType: 1
-    actionValue: 5
+    actionValue: 3
     actionDelay: 0
   - cardActionType: 0
     actionTargetType: 0
     actionValue: 3
     actionDelay: 1
   cardDescriptionDataList:
-  - descriptionText: Block incoming damage and retaliate
+  - descriptionText: 'Def '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -38,5 +38,32 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 
+  - descriptionText: 
+    enableOverrideColor: 1
+    overrideColor: {r: 0.0701762, g: 0.09767525, b: 0.7830189, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 0
+    modiferStats: 3
+    usePrefixOnModifiedValue: 1
+    modifiedValuePrefix: +
+    overrideColorOnValueScaled: 0
+  - descriptionText: ', atatck '
+    enableOverrideColor: 0
+    overrideColor: {r: 1, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 3
+    usePrefixOnModifiedValue: 1
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: 
+    enableOverrideColor: 1
+    overrideColor: {r: 1, g: 0, b: 0, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 1
+    modiferStats: 1
+    usePrefixOnModifiedValue: 1
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  specialKeywordsList: 00000000
   audioType: 2
