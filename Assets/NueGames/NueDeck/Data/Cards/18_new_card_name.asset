@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 09_Deck02DefensiveGuardians
   cardName: 2.9 Retribution
-  manaCost: 4
+  manaCost: 3
   cardSprite: {fileID: 0}
   rarity: 0
   usableWithoutTarget: 0

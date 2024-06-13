@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 09_Deck03DefensiveGuardians
   cardName: 3.9 Time Warp
-  manaCost: 6
+  manaCost: 3
   cardSprite: {fileID: 0}
   rarity: 0
   usableWithoutTarget: 1

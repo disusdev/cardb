@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 08_Deck02DefensiveGuardians
   cardName: 2.8 Divine Protection
-  manaCost: 5
+  manaCost: 3
   cardSprite: {fileID: 0}
   rarity: 0
   usableWithoutTarget: 1
