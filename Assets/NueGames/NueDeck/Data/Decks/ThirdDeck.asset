@@ -17,3 +17,10 @@ MonoBehaviour:
   cardList:
   - {fileID: 11400000, guid: 658801139689aa947ba1463e6a631c80, type: 2}
   - {fileID: 11400000, guid: 88b82f967efa9194592f917edae3ba56, type: 2}
+  - {fileID: 11400000, guid: 6d96ba8537b472c44b4cfa252bf25289, type: 2}
+  - {fileID: 11400000, guid: efc3f45ef8a9d29499cf483e54278ac9, type: 2}
+  - {fileID: 11400000, guid: 978eee81c22fa1645a9182238825f602, type: 2}
+  - {fileID: 11400000, guid: 277c65586769fce499106f20f077bc6b, type: 2}
+  - {fileID: 11400000, guid: 0aa1958f1c058a849a960ce200a8dca0, type: 2}
+  - {fileID: 11400000, guid: 140aeb9821a4cd24aabe3f4050f9b8ad, type: 2}
+  - {fileID: 11400000, guid: a06b39447a79b1348ac099d30c0f990a, type: 2}

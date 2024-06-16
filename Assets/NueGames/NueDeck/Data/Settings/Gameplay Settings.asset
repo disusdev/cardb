@@ -19,15 +19,15 @@ MonoBehaviour:
   initalDeck: {fileID: 11400000, guid: 1f1db59d6dc1c1046b2ad72c336c615e, type: 2}
   maxCardOnHand: 10
   allCardsList:
-  - {fileID: 11400000, guid: 7ec26356c8282494299f1b3ad684bacd, type: 2}
-  - {fileID: 11400000, guid: 0f25d9aa096532d48abbde2662ec1ee5, type: 2}
-  - {fileID: 11400000, guid: ff54b57f430fa27458ed50db9cb42b4b, type: 2}
-  - {fileID: 11400000, guid: 7c98a67c9c7a532478d11321afaf405f, type: 2}
-  - {fileID: 11400000, guid: 15204e5ba4efb4f4f82d660d819ff4da, type: 2}
-  - {fileID: 11400000, guid: f57c76a94b708014fa56865e154e86e4, type: 2}
-  - {fileID: 11400000, guid: b4031d3db0ff8d5429ac896d38c485be, type: 2}
-  - {fileID: 11400000, guid: 0ca93e384f6c8a24185306782951dd29, type: 2}
-  - {fileID: 11400000, guid: cd97d6f3dcbe84a40b13da6dffb62642, type: 2}
+  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
+  - {fileID: 11400000, guid: 8f655889219afa649a967e88e37f98ec, type: 2}
+  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
+  - {fileID: 11400000, guid: 7c3fef23d2fb177478906e53364bf7fc, type: 2}
+  - {fileID: 11400000, guid: 97392c824000e4049a6299b2cef0e84d, type: 2}
+  - {fileID: 11400000, guid: 9706119fd5cc9f34e90cb73be068200c, type: 2}
+  - {fileID: 11400000, guid: 1e5671bf6b0f90b428df809497a2f125, type: 2}
+  - {fileID: 11400000, guid: 5d6b018bf7dec554ba0a2eabfd89d3b1, type: 2}
+  - {fileID: 11400000, guid: ffd3079242e164645ba9365c7c965def, type: 2}
   cardPrefab: {fileID: 2689473134106589740, guid: a9728682a56595f4989b8f224d934689, type: 3}
   defaultName: Nue
   useStageSystem: 0
